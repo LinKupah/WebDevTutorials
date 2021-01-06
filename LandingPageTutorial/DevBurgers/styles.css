@@ -10,7 +10,7 @@ header{
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   margin: auto;
   align-items: center;
 }
@@ -21,10 +21,6 @@ header #logo{
 
 header #logo span{
   color: #A14C09;
-}
-
-header nav{
-  color: #000;
 }
 
 header nav a{
@@ -49,8 +45,8 @@ header nav a:hover{
 main{
   display:flex;
   flex-direction: row;
-  margin: 50px auto 0px;
-  height: calc(100vh - 90px);
+  margin: 3rem auto 0;
+  height: 900px;
 
   background: url(images/wave.svg);
   background-position: bottom;
@@ -59,21 +55,21 @@ main{
 }
 
 main section{
-  margin-left:15%;
-  margin-top:80px;
-  width: 70%;
+  margin-top:3rem;
+  margin-left:10%;
+  width: 35%;
 }
 
 main section h1{
   font-weight: 900;
-  font-size: 62px;
-  line-height: 0.9em;
+  font-size: 3.5rem;
+  line-height: 1em;
   margin-bottom: 30px;
 }
 
 main section h1 span{
   color: #A14C09;
-  font-size: 66px;
+  font-size: 3.7rem;
 }
 
 
@@ -97,7 +93,8 @@ main section button{
 }
 
 main div img{
-  min-width:52vw;
+  min-width:56vw;
+  min-height: 550px;
   width:100%;
 }
 
@@ -116,19 +113,16 @@ footer{
 }
 
 
-@media (max-width:1280px){
-  main div img {
-    margin-top:10vh;
-  }
-
-  .hide-low{
+@media (max-width:1100px){
+  header nav a:not(:last-child){
     display:none;
   }
 
-}
+  main section{
+    width:70%;
+  }
 
-@media (max-width:1024px){
-  main div img {
+  #image-container {
     display: none;
   }
 }
