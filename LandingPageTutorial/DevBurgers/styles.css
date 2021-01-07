@@ -99,7 +99,7 @@ main div img{
 }
 
 main section button:hover{
-  opacity:0.9;
+  opacity:0.8;
 }
 
 #menus-section{
@@ -118,11 +118,11 @@ footer{
     display:none;
   }
 
-  main section{
-    width:70%;
-  }
-
   #image-container {
     display: none;
+  }
+
+  main section{
+    width:80%;
   }
 }
