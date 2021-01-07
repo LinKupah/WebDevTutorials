@@ -62,14 +62,14 @@ main section{
 
 main section h1{
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 1em;
   margin-bottom: 30px;
 }
 
 main section h1 span{
   color: #A14C09;
-  font-size: 3.7rem;
+  font-size: 4.2rem;
 }
 
 
@@ -84,10 +84,10 @@ main section button{
   outline:none;
   color: #FFF;
   background-color: #A14C09;
-  padding: 16px 0px;
-  font-size: 16px;
+  padding: 1rem;
+  font-size: 1.7rem;
   font-weight: 700;
-  width: 160px;
+  width: 250px;
   margin-top:80px;
   cursor: pointer;
 }
