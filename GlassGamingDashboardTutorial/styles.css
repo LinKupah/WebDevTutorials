@@ -1,0 +1,81 @@
+*{
+  padding:0;
+  margin:0;
+}
+body {
+  background: linear-gradient(to left, #65DFC9, #6596F6 50%, #65DFC9 100%);
+  background-size: 100% 100%;
+  font-family: poppins;
+}
+
+.container{
+  display:flex;
+}
+
+.blur-filter{
+  min-width:900px;
+  width: 60%;
+  margin: 10vh auto;
+  height: 80vh;
+  backdrop-filter: blur(20px);
+}
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0.2));
+  border-radius: 30px;
+  overflow:hidden;
+}
+
+#dashboard{
+  height:100%;
+  width: 25%;
+  background: rgba(255,255,255,0.5);
+  display:flex;
+  flex-direction: column;
+}
+
+#dashboard .userInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+#dashboard .userInfo img{
+  width:80px;
+  border-radius: 40px;
+}
+
+#dashboard .userInfo h4{
+  font-weight: 1000;
+  color: #3A517D;
+}
+#dashboard .userInfo h6{
+  color: #3A517D;
+}
+
+#join-pro{
+  display:flex;
+}
+
+.glass-circle{
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+  opacity:0.6;
+  position: absolute;
+  z-index: -100;
+}
+
+#left-circle{
+  left: 10vw;
+  bottom: 5vh;
+}
+
+#right-circle{
+  right: 10vw;
+  top: 5vh;
+}
