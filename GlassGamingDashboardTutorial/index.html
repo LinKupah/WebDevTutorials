@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glass Gaming</title>
+  <title>Document</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,15 +19,67 @@
             <h6>Pro Member</h6>
           </div>
           <nav>
-            <a href="#">Streams</a>
-            <a href="#">Games</a>
-            <a href="#">Upcoming</a>
-            <a href="#">Library</a>
+            <div class="link-container">
+              <a href="#"><img src="./images/Twitch.svg" alt="Twitch icon"> <span>Streams</span></a>
+            </div>
+            <div class="link-container">
+              <a href="#"><img src="./images/Steam.svg" alt="Steam icon"> <span>Games</span></a>
+            </div>
+            <div class="link-container">
+              <a href="#"><img src="./images/Gamepad.svg" alt="Gamepad icon"> <span>Upcoming</span></a>
+            </div>
+            <div class="link-container">
+              <a href="#"><img src="./images//Library.svg" alt="Book icon"> <span>Library</span></a>
+            </div>
           </nav>
-          <div id="join-pro">
-            <h3>Join pro for free games</h3>
+          <article id="join-pro">
+            <h3>Join pro <br/>for free <br/>games</h3>
             <img src="./images/Joystick.png" alt="Console joystick">
+          </article>
+        </section>
 
+        <section id="active-games">
+          <h1>Active Games</h1>
+          <div id="search-container">
+            <input class="glass-input" type="search" placeholder="Search">
+            <div>
+              <img class="search-icon" src="./images/search.png" width="20px" alt="Search button">
+            </div>
+          </div>
+          <div id="cards-container">
+            <div class="game-card">
+              <img src="" alt="">
+              <div>
+                <h5>Game title</h5>
+                <span>PS5 Version</span>
+                <progress id="file" value="16x16" max="100"> 32% </progress>
+              </div>
+              <div>
+                <span>60%</span>
+              </div>
+            </div>
+            <div class="game-card">
+              <img src="" alt="">
+              <div>
+                <h5>Game title</h5>
+                <span>PS5 Version</span>
+                <progress id="file" value="32" max="100"> 32% </progress>
+              </div>
+              <div>
+                <span>60%</span>
+              </div>
+            </div>
+            <div class="game-card">
+              <img src="" alt="">
+              <div>
+                <h5>Game title</h5>
+                <span>PS5 Version</span>
+                <progress id="file" value="32" max="100"> 32% </progress>
+              </div>
+              <div>
+                <span>60%</span>
+              </div>
+            </div>
           </div>
         </section>
       </main>
