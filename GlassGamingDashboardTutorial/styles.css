@@ -3,8 +3,7 @@
   margin:0;
 }
 body {
-  background: linear-gradient(to left, #65DFC9, #6596F6 50%, #65DFC9 100%);
-  
+  background: linear-gradient(to left, #65DFC9 0%, #6596F6 40%, #65DFC9 80%);
   background-size: 100% 100%;
   font-family: poppins;
 }
@@ -14,9 +13,9 @@ body {
 
 .blur-filter{
   min-width:900px;
-  width: 60%;
-  margin: 15vh auto;
-  height: 70vh;
+  width: 50%;
+  margin: 13vh auto;
+  height: 74vh;
   backdrop-filter: blur(20px);
 }
 main{
@@ -31,7 +30,7 @@ main{
 
 #dashboard{
   height:100%;
-  width: 25%;
+  width: 30%;
   background: rgba(255,255,255,0.5);
   display:flex;
   flex-direction: column;
@@ -112,8 +111,8 @@ nav a span{
 }
 
 #active-games{
-  width: 60%;
-  height: 80%;
+  width: 56%;
+  height: 86%;
   margin: auto;
 }
 
@@ -147,6 +146,56 @@ nav a span{
   padding-top:5px;
 }
 
+#cards-container{
+  margin-top:3.5rem;
+}
+
+.game-card{
+  margin-bottom: 2rem;
+  display:flex;
+  width: 80%;
+  background: linear-gradient(to bottom right, rgb(252, 253, 255), rgba(252, 253, 255,0.8));
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 1px 30px rgba(0,0,0,0.1), 0 10px 30px rgba(0,0,0,0.15);
+  opacity: 0.9;
+}
+
+.game-card .game-image{
+  border-radius: 25px;
+  height: 80px;
+}
+
+.game-card .game-progress{
+  margin: 0 2rem;
+}
+.game-card .game-progress h5{
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.game-card .game-progress p{
+  margin-top:0.3rem;
+  font-size: 0.7rem;
+  opacity: 0.4;
+}
+
+.game-card .game-progress progress{
+  height: 30px;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.game-card .percentage-progress{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0E81F8;
+  opacity: 0.8;
+}
+
 .glass-circle{
   width: 330px;
   height: 330px;
@@ -158,11 +207,11 @@ nav a span{
 }
 
 #left-circle{
-  left: 10vw;
+  left: 15vw;
   bottom: 5vh;
 }
 
 #right-circle{
-  right: 10vw;
+  right: 15vw;
   top: 5vh;
 }
